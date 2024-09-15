@@ -24,7 +24,7 @@ const createTimerAnimator = () => {
 };
 
 const animateTimer = createTimerAnimator();
-console.log('max timer 99:59:59 seconds=', 3600 * 99 + 60 * 59 + 59);
+console.log('max timer  99:59:59 seconds=', 3600 * 99 + 60 * 59 + 59);
 inputEl.addEventListener('input', () => {
   // Очистите input так, чтобы в значении
   // оставались только числа
